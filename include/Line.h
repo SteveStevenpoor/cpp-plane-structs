@@ -2,6 +2,7 @@
 #define LINE_H
 
 #include <iostream>
+#include <string>
 
 struct Point {
     int x, y;
@@ -19,6 +20,7 @@ class Line
         Point findInsn(const Line& other) const;
         Line findOrtoLine(const Point p) const;
         void print() const;
+        std::string getString() const;
         virtual ~Line();
 
     protected:

@@ -32,6 +32,12 @@ void Line::print() const {
     std::cout << coefX << "x + " << coefY << "y + " << coefD << " = 0" << std::endl;
 }
 
+std::string Line::getString() const {
+    std::string strline = std::to_string(coefX) + "x + ";
+    strline += std::to_string(coefY) + "y + " + std::to_string(coefD);
+    return strline;
+}
+
 Line::~Line()
 {
     //dtor
