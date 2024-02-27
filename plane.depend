@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1709035865 source:c:\users\stepy\onedrive\Документы\cpp-bit\plane\main.cpp
+	<iostream>
+	<Line.h>
+
+1709035888 source:c:\users\stepy\onedrive\Документы\cpp-bit\plane\src\line.cpp
+	"Line.h"
+
+1709035866 c:\users\stepy\onedrive\Документы\cpp-bit\plane\include\line.h
+	<iostream>
+
